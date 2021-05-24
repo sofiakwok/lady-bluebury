@@ -13,7 +13,7 @@ async def on_message(message):
 
     if message.content.startswith('''So, Bluebury'''):
         await message.channel.send('Aye, I concur.  Thanketh god yond that’s all behind us.  How shouldst we bray out? \n')
-    if message.content.startswith('''Let's playeth'''):
+    if message.content.startswith('''Let’s playeth a fat game of quiplash!'''):
         await message.channel.send('''Yond sounds excit'ment.  Anon, th're’s nay needeth to keepeth track of a “winn'r” 'r “los'r” - \n''')
     if message.content.startswith('''Nay, not at all -'''):
         await message.channel.send('''But I sayeth nay game is excit'ment without a dram competition.  Let’s sayeth mine own team shall beest on the hath left and yours shall beest on the right.''')
