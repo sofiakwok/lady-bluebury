@@ -29,9 +29,8 @@ async def on_message(message):
         await message.channel.send('''I bethink it’s timeth to did split again.''')
     if message.content.startswith("Welcome to the Bluebury channel!"):
         time.sleep(0.5)
-        await message.channel.send('''Thy new goal: to did beat the oth'r side.  Starteth out by solving these shakespearean puzzles to receiveth in the humor: \n''')
+        await message.channel.send('''Thy new goal: to did beat the oth'r side.  Starteth out by solving this shakespearean puzzle to receiveth in the humor: \n''')
         await message.channel.send('''https://docs.google.com/spreadsheets/d/1rWyyZAaC57aV6qq373dsVFxzh8XnZ3XWwcV3f_Or9eE/edit?usp=sharing''')
-        s.next()
     if message.content.startswith('''Return to the main voice chat!'''):
         time.sleep(0.5)
         await message.channel.send('''Thee knoweth, these dram games art all well and valorous, but I bethink something m're satisfying wouldst beest going headeth to headeth.''')
